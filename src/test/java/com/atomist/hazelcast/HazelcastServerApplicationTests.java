@@ -15,7 +15,7 @@ import com.hazelcast.core.Hazelcast;
 public class HazelcastServerApplicationTests {
 
 	@Test
-	public void count_hazelcasts() {
+	public void count_hazelcast_servers_in_this_jvm() {
 		assertThat(Hazelcast.getAllHazelcastInstances().size(), equalTo(1));
 	}
 	

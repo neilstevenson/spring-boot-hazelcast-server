@@ -1,5 +1,5 @@
 group: atomist-rugs
-artifact: spring-boot-hazelcast-client
+artifact: spring-boot-hazelcast-server
 version: "0.1.0"
 requires: "[0.7.0,1.0.0)"
 dependencies:

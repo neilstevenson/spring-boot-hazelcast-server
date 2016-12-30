@@ -69,7 +69,7 @@ param new_package: @java_package
 @description "name for the main class"
 @validInput "a valid Java class name, which contains only alphanumeric characters, $ and _ and does not start with a number"
 @optional
-@default "MyCaster"
+@default "MyServer"
 param main_class_name: @java_class
 
 # Pattern to replace in old class name.

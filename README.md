@@ -1,5 +1,8 @@
 # Atomist 'spring-boot-hazelcast-server'
 
+[![Build Status](https://travis-ci.org/atomist-rugs/spring-boot-hazelcast-server.svg?branch=master)](https://travis-ci.org/atomist-rugs/spring-boot-hazelcast-server)
+[![Slack Status](https://join.atomist.com/badge.svg)](https://join.atomist.com)
+
 This [Rug][rug] archive contains a Generator for a [Spring Boot][boot]
 [Hazelcast][hazelcast] server project.
 
@@ -95,4 +98,25 @@ $ rug test
 $ rug install
 ```
 
+To create a new release of the project, simply push a tag of the form
+`M.N.P` where `M`, `N`, and `P` are integers that form the next
+appropriate [semantic version][semver] for release.  For example:
+
+[semver]: http://semver.org
+
+```
+$ git tag -a 1.2.3
+```
+
+The Travis CI build (see badge at the top of this page) will
+automatically create a GitHub release using the tag name for the
+release and the comment provided on the annotated tag as the contents
+of the release notes.  It will also automatically upload the needed
+artifacts.
+
+---
+Created by [Atomist][atomist].
+Need Help?  [Join our Slack team][slack].
+
+[atomist]: https://www.atomist.com/
 [slack]: https://join.atomist.com/

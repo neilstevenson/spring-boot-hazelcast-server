@@ -84,7 +84,7 @@ at [atomist-community.slack.com][slack].
 
 If you find a problem, please create an [issue][].
 
-[issue]: https://github.com/neilstevenson/spring-boot-hazelcast-server/issues
+[issue]: https://github.com/atomist-rugs/spring-boot-hazelcast-server/issues
 
 ## Development
 

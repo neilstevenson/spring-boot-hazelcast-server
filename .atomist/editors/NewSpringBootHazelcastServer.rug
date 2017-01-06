@@ -90,7 +90,7 @@ param new_package: @java_package
 param main_class_name: @java_class
 
 # Pattern to replace in old class name.
-let old_class = "HazelcastServer"
+let old_class = "MyHazelcastServer"
 
 # Root package of the old file
 let old_package = "com.atomist.hazelcast"
